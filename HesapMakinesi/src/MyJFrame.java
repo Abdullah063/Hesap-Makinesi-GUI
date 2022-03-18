@@ -437,7 +437,7 @@ public class MyJFrame extends javax.swing.JFrame {
         }
         else 
         {
-            input.setText(" ");
+            
         }
         
     }//GEN-LAST:event_jButton18ActionPerformed
@@ -479,27 +479,27 @@ public class MyJFrame extends javax.swing.JFrame {
         switch(operation)
         {
             case 1:
-                answer = namber + Double.parseDouble(input.getText());
-                input.setText(Double.toString(answer));
+                sonuc = namber + Double.parseDouble(input.getText());
+                input.setText(Double.toString(sonuc));
                 break;
             case 2:
-                 answer = namber - Double.parseDouble(input.getText());
-                input.setText(Double.toString(answer));
+                 sonuc = namber - Double.parseDouble(input.getText());
+                input.setText(Double.toString(sonuc));
                 break;
             case 3:
-                 answer = namber / Double.parseDouble(input.getText());
-                input.setText(Double.toString(answer));
+                 sonuc = namber / Double.parseDouble(input.getText());
+                input.setText(Double.toString(sonuc));
                 break;
             case 4:
-                 answer = namber * Double.parseDouble(input.getText());
-                input.setText(Double.toString(answer));
+                 sonuc = namber * Double.parseDouble(input.getText());
+                input.setText(Double.toString(sonuc));
                 break;
                 
         }
             
     }
    
-    private Double answer,namber;
+    private Double sonuc,namber;
     int operation;
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel control;
