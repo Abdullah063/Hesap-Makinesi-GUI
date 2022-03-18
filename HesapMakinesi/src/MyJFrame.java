@@ -334,10 +334,10 @@ public class MyJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        namber =Double.parseDouble(input.getText());
+        number =Double.parseDouble(input.getText());
         operation = 1;
         input.setText("");
-        label.setText(namber + evt.getActionCommand());
+        label.setText(number + evt.getActionCommand());
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
@@ -389,24 +389,24 @@ public class MyJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        namber =Double.parseDouble(input.getText());
+        number =Double.parseDouble(input.getText());
         operation = 3;
         input.setText("");
-        label.setText(namber + evt.getActionCommand());
+        label.setText(number + evt.getActionCommand());
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        namber =Double.parseDouble(input.getText());
+        number =Double.parseDouble(input.getText());
         operation = 4;
         input.setText("");
-        label.setText(namber + evt.getActionCommand());
+        label.setText(number + evt.getActionCommand());
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        namber =Double.parseDouble(input.getText());
+        number =Double.parseDouble(input.getText());
         operation = 2;
         input.setText("");
-        label.setText(namber + evt.getActionCommand());
+        label.setText(number + evt.getActionCommand());
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
@@ -479,19 +479,19 @@ public class MyJFrame extends javax.swing.JFrame {
         switch(operation)
         {
             case 1:
-                sonuc = namber + Double.parseDouble(input.getText());
+                sonuc = number + Double.parseDouble(input.getText());
                 input.setText(Double.toString(sonuc));
                 break;
             case 2:
-                 sonuc = namber - Double.parseDouble(input.getText());
+                 sonuc = number - Double.parseDouble(input.getText());
                 input.setText(Double.toString(sonuc));
                 break;
             case 3:
-                 sonuc = namber / Double.parseDouble(input.getText());
+                 sonuc = number / Double.parseDouble(input.getText());
                 input.setText(Double.toString(sonuc));
                 break;
             case 4:
-                 sonuc = namber * Double.parseDouble(input.getText());
+                 sonuc = number * Double.parseDouble(input.getText());
                 input.setText(Double.toString(sonuc));
                 break;
                 
@@ -499,7 +499,7 @@ public class MyJFrame extends javax.swing.JFrame {
             
     }
    
-    private Double sonuc,namber;
+    private Double sonuc,number;
     int operation;
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel control;
